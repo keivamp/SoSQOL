@@ -33,7 +33,7 @@ AutoRep.lastamount = 0;
 			end
 			if c > 0 then
 
-				print("|cff99CCFF".."Junk sold for: " .."|cffFFFFFF" .. GetCoinTextureString(c))
+			--	print("|cff99CCFF".."Junk sold for: " .."|cffFFFFFF" .. GetCoinTextureString(c))
 
 				
 			end
@@ -49,7 +49,7 @@ AutoRep.lastamount = 0;
 					local money = GetMoney()
 				if money > cost then
 					RepairAllItems()
-					print(format("|cff99CCFF".."Repair cost  ".."|r%s", GetMoneyString(cost)))
+				--	print(format("|cff99CCFF".."Repair cost  ".."|r%s", GetMoneyString(cost)))
 				else
 					print("|cff99CCFF".."It's time to do some quest or go kill some mobs".."|r")
 				end
