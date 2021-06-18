@@ -31,7 +31,7 @@ function CreateAutoScreenShot()
 			
 end
 
-local InkedLoginFrame=CreateFrame("Frame")
+local keivampLoginFrame=CreateFrame("Frame")
 
 		keivampLoginFrame:RegisterEvent("PLAYER_LEVEL_UP",CreateAutoScreenShot)
 		keivampLoginFrame:RegisterEvent("ACHIEVEMENT_EARNED",CreateAutoScreenShot)
