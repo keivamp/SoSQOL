@@ -17,3 +17,5 @@ Auto reputation change
 Auto Vender Grey Items
 
 Auto Repair
+
+Takes a screen shot on level or achievement
